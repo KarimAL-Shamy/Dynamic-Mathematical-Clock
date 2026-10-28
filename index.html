@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+    <script src="Clock.js"></script> 
+    <style type="text/css">
+        .centered-wrapper {
+            position: relative;
+            text-align: center;
+            height : "100%";
+        }
+        .centered-wrapper:before {
+            content: "";
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            width: 0; 
+        }
+        .centered-content {
+            display: inline-block;
+            vertical-align: middle;
+        }
+      </style>
+  
+    </head>
+    <body class="centered-wrapper">
+      <div id="qrcode" class="centered-content"></div>
+    </body>
+  </html>
